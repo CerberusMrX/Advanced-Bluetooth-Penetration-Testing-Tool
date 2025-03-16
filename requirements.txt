@@ -1,0 +1,9 @@
+# requirements.txt
+# Python dependencies for Cerberus Blue v6.1
+
+# Core UI and console enhancements
+rich==13.7.1  # For formatted output, progress bars, and tables
+
+# Optional: For potential future enhancements or debugging
+requests==2.31.0  # For HTTP requests (e.g., if adding web-based payloads)
+pybluez==0.23  # Python Bluetooth library (alternative to subprocess calls)
