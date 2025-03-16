@@ -1,6 +1,6 @@
 # Cerberus Blue v6.1 - Advanced Bluetooth Penetration Testing Tool
 
-**Cerberus Blue** is a cutting-edge, open-source tool designed for Bluetooth security research and penetration testing. It offers a robust suite of attacks targeting Bluetooth Classic and BLE devices across Android, iOS, Windows, and Linux platforms. With real-world functionality at its core, Cerberus Blue includes exploits for known CVEs, device spoofing, packet manipulation, and Android-specific ADB-based attacks, all wrapped in a user-friendly interface.
+**Cerberus Blue** is a cutting-edge, open-source tool designed for Bluetooth security research and penetration testing. It offers a robust suite of attacks targeting Bluetooth Classic and BLE devices across Android, iOS, Windows, and Linux platforms. With real-world functionality at its core, Cerberus Blue includes exploits for known CVEs, device spoofing, packet manipulation, and Android-specific ADB-based attacks, all wrapped in a user-friendly interface.Still this is a Beta Version.
 
 **Programmer**: Sudeepa Wanigarathna  
 **Version**: 6.1 (March 2025)  
@@ -58,3 +58,5 @@ Install on Ubuntu or Kali:
 ```bash
 sudo apt update
 sudo apt install bluez bluez-hcidump rfkill network-manager android-tools-adb figlet
+pip3 install -r requirements.txt
+python3 cerberusblue.py
